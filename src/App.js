@@ -29,6 +29,11 @@ export default function App() {
     }
 
     return (
+        <View>
+            <View style={styles.header}>
+                <Text style={styles.textHeader}>Lista de Usuários</Text>
+            </View>
+            
         <FlatList
             data={data}
             refreshing={isFetching} 
@@ -43,6 +48,7 @@ export default function App() {
                 </View>
             )}
         />
+        </View>
     );
 }
 
@@ -98,5 +104,16 @@ const styles = StyleSheet.create({
     city: {
         fontSize: 14,
         color: '#aaa'
+    },
+    header:{
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#0e6816ff'
+    },
+    textHeader:{
+        fontSize: 20,
+        fontWeight: '500',
+        color: 'white'
     }
 });
