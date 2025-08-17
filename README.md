@@ -37,9 +37,10 @@ O app utiliza **TanStack Query** para gerenciamento de dados e **StyleSheet** pa
 ---
 
 ## 👥 Grupo Desenvolvedor
-Gabriela de Sousa Reis - RM558830
-Laura Amadeu Soares - RM556690
-Raphael Lamaison Kim - RM557914
+- Gabriela de Sousa Reis - RM558830
+- Laura Amadeu Soares - RM556690
+- Raphael Lamaison Kim - RM557914
+
 
 
 
